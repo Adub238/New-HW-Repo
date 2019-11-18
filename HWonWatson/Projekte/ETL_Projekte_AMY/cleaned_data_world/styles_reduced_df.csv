@@ -1,0 +1,142 @@
+id,cat_id,style_name,ABV_Low,ABV_High,Glass_Type
+1,1,Classic English-Style Pale Ale,4.5,5.5,Stein
+2,1,English-Style India Pale Ale,5.0,7.0,Nonic Pint
+3,1,Ordinary Bitter,3.0,4.1,Nonic Pint
+4,1,Special Bitter or Best Bitter,4.1,4.8,Nonic Pint
+5,1,Extra Special Bitter,4.8,5.8,Nonic Pint
+6,1,English-Style Summer Ale,3.6,5.0,Stein
+7,1,Scottish-Style Light Ale,2.8,3.5,Seidel
+8,1,Scottish-Style Heavy Ale,3.5,4.0,Seidel
+9,1,Scottish-Style Export Ale,4.0,5.3,Stein
+10,1,English-Style Pale Mild Ale,3.2,4.0,Seidel
+11,1,English-Style Dark Mild Ale,3.2,4.0,Nonic Pint
+12,1,English-Style Brown Ale,4.0,5.5,Nonic Pint
+13,1,Old Ale,6.0,9.0,Snifter
+14,1,Strong Ale,7.0,11.0,Tulip
+15,1,Scotch Ale,6.2,8.0,Tulip
+16,1,British-Style Imperial Stout,7.0,12.0,Oversized Wine Glass
+17,1,British-Style Barley Wine Ale,8.4,12.0,Shaker
+18,1,Robust Porter,5.0,6.5,Shaker
+19,1,Brown Porter,4.5,6.0,Nonic Pint
+20,1,Sweet Stout,3.0,6.0,Stein
+21,1,Oatmeal Stout,3.8,6.0,Nonic Pint
+22,2,Irish-Style Red Ale,4.0,4.5,Nonic Pint
+23,2,Classic Irish-Style Dry Stout,4.0,4.5,Nonic Pint
+24,2,Foreign (Export)-Style Stout,5.7,9.3,Shaker
+25,2,Porter,4.5,5.0,Nonic Pint
+26,3,American-Style Pale Ale,4.5,5.6,Mug
+27,3,Fresh Hop Ale,4.5,5.0,Shaker
+28,3,Pale American-Belgo-Style Ale,4.5,5.0,Shaker 
+29,3,Dark American-Belgo-Style Ale,4.5,5.0,Shaker
+30,3,American-Style Strong Pale Ale,5.5,6.3,Stein
+31,3,American-Style India Pale Ale,6.3,7.5,Stein
+32,3,Imperial or Double India Pale Ale,7.5,10.5,Nonic Pint
+33,3,American-Style Amber/Red Ale,4.5,6.0,Nonic Pint
+34,3,Imperial or Double Red Ale,7.9,10.5,Nonic Pint
+35,3,American-Style Barley Wine Ale,8.4,12.0,Snifter
+36,3,American-Style Wheat Wine Ale,8.4,12.0,Snifter
+37,3,Golden or Blonde Ale,4.0,5.0,Mug
+38,3,American-Style Brown Ale,4.0,6.4,Mug
+39,3,Smoke Porter,5.0,8.7,Shaker
+40,3,American-Style Sour Ale,4.5,5.0,Tulip
+41,3,American-Style India Black Ale,6.0,7.5,Oversized Wine Glass
+42,3,American-Style Stout,5.7,8.8,Stein
+43,3,American-Style Imperial Stout,7.0,12.0,Stein
+44,3,Specialty Stouts,7.0,12.0,Stein
+45,3,American-Style Imperial Porter,5.5,9.5,Shaker
+47,4,German-Style Kolsch,4.8,5.3,Stange
+48,4,Berliner-Style Weisse,2.8,3.4,Chalice
+49,4,Leipzig-Style Gose,4.4,5.5,Stange
+50,4,South German-Style Hefeweizen,4.9,5.5,Weizen
+51,4,South German-Style Kristal Weizen,4.9,5.5,Weizen
+52,4,German-Style Leichtes Weizen,2.5,3.5,Weizen
+53,4,South German-Style Bernsteinfarbenes Weizen,4.8,5.4,Weizen
+54,4,South German-Style Dunkel Weizen,4.8,5.4,Weizen
+55,4,South German-Style Weizenbock,6.9,9.3,Weizen
+56,4,Bamberg-Style Weiss Rauchbier,4.9,5.5,Stange
+57,4,German-Style Brown Ale/Altbier,4.3,5.5,Stange
+58,4,Kellerbier - Ale,4.3,5.5,Shaker
+59,5,Belgian-Style Flanders/Oud Bruin,4.8,6.5,Flute
+60,5,Belgian-Style Dubbel,6.25,7.5,Chalice
+61,5,Belgian-Style Tripel,7.0,10.0,Chalice
+62,5,Belgian-Style Quadrupel,9.0,14.0,Chalice
+63,5,Belgian-Style Blonde Ale,6.0,7.8,Stein
+64,5,Belgian-Style Pale Ale,4.0,6.0,Snifter
+65,5,Belgian-Style Pale Strong Ale,7.0,11.0,Snifter
+66,5,Belgian-Style Dark Strong Ale,7.0,11.0,Snifter
+67,5,Belgian-Style White,4.8,5.2,Shaker
+68,5,Belgian-Style Lambic,6.2,8.1,Tulip
+69,5,Belgian-Style Gueuze Lambic,6.8,8.6,Tulip
+70,5,Belgian-Style Fruit Lambic,5.6,8.6,Flute
+71,5,Belgian-Style Table Beer,0.5,3.5,Shaker
+72,5,Other Belgian-Style Ales,4.5,8.0,Oversized Wine Glass
+73,5,French-Style Biere de Garde,4.5,8.0,Oversized Wine Glass
+74,5,French & Belgian-Style Saison,4.5,8.5,Nonic Pint
+75,6,International-Style Pale Ale,4.5,5.5,Shaker
+76,6,Australasian-Style Pale Ale,4.2,6.2,Shaker
+77,7,German-Style Pilsener,4.0,5.0,Pilsener
+78,7,Bohemian-Style Pilsener,4.0,5.0,Pilsener
+79,7,European Low-Alcohol Lager,2.5,3.6,Pilsener
+80,7,Munchner-Style Helles,4.5,5.5,Pilsener
+81,7,Dortmunder/European-Style Export,5.0,6.0,Flute 
+82,7,Vienna-Style Lager,4.8,5.4,Stein
+83,7,German-Style Marzen,5.3,5.9,Nonic Pint
+84,7,German-Style Oktoberfest,5.0,6.0,Mug
+85,7,European-Style Dark,4.5,5.0,Mug
+86,7,German-Style Schwarzbier,3.8,5.0,Flute
+87,7,Bamberg-Style Marzen,5.3,5.9,Mug
+88,7,Bamberg-Style Helles Rauchbier,4.5,5.5,Stange
+89,7,Bamberg-Style Bock Rauchbier,6.0,7.5,Stange
+90,7,Traditional German-Style Bock,6.3,7.5,Shaker
+91,7,German-Style Heller Bock/Maibock,6.0,8.0,Shaker
+92,7,German-Style Doppelbock,6.5,8.0,Pilsener
+93,7,German-Style Eisbock,4.5,8.0,Snifter
+94,7,Kellerbier - Lager,4.5,8.0,Stein
+95,8,American-Style Lager,3.8,5.0,Mug
+96,8,American-Style Light Lager,3.5,4.4,Nonic Pint
+97,8,American-Style Low-Carb Light Lager,3.5,4.4,Mug
+98,8,American-Style Amber Lager,3.5,4.4,Mug
+99,8,American-Style Premium Lager,4.3,5.0,Nonic Pint
+100,8,American-Style Pilsener,5.0,6.0,Pilsener
+101,8,American-Style Ice Lager,4.75,6.25,Shaker
+102,8,American-Style Malt Liquor,6.25,7.5,Nonic Pint
+103,8,American-Style Amber Lager,4.8,5.4,Nonic Pint
+104,8,American-Style Marzen/Oktoberfest,5.3,5.9,Seidel
+105,8,American-Style Dark Lager,4.0,5.5,Weizen
+106,9,Baltic-Style Porter,7.5,9.0,Nonic Pint
+107,9,Australasian-Style Light Lager,3.8,5.0,Shaker
+108,9,Latin American-Style Light Lager,4.5,8.0,Shaker
+109,9,Tropical-Style Light Lager,3.8,5.0,Shaker
+110,10,International-Style Pilsener,4.5,5.3,Pilsener
+111,10,Dry Lager,4.3,5.5,Seidel
+112,11,Session Beer,4.0,5.1,Nonic Pint
+113,11,American-Style Cream Ale or Lager,4.2,5.6,Mug
+114,11,California Common Beer,4.5,5.6,Shaker
+115,11,Japanese Sake-Yeast Beer,4.2,7.0,Pilsener
+116,11,Light American Wheat Ale or Lager,3.8,5.0,Mug
+117,11,Fruit Wheat Ale or Lager,3.8,5.0,Stein
+118,11,Dark American Wheat Ale or Lager,3.8,5.0,Nonic Pint
+119,11,American Rye Ale or Lager,4.9,5.5,Stange
+120,11,German-Style Rye Ale,4.9,5.5,Stange
+121,11,Fruit Beer,2.5,12.0,Stein
+122,11,Field Beer,2.5,13.1,Stein
+123,11,Pumpkin Beer,2.5,12.0,Nonic Pint
+124,11,Chocolate/Cocoa-Flavored Beer,2.5,12.0,Shaker
+125,11,Coffee-Flavored Beer,2.5,12.0,Shaker
+126,11,Herb and Spice Beer,2.5,12.0,Shaker
+127,11,Specialty Beer,2.5,25.0,Shaker
+128,11,Specialty Honey Lager or Ale,2.5,12.0,Pilsener
+129,11,Gluten-Free Beer,4.9,5.5,Shaker
+130,11,Smoke Beer,4.9,5.5,Seidel
+131,11,Experimental Beer,4.9,5.5,Shaker
+132,11,Out of Category,4.9,5.5,Shaker
+133,11,Wood- and Barrel-Aged Beer,4.9,5.5,Shaker
+134,11,Wood- and Barrel-Aged Pale to Amber Beer,3.7,6.5,Shaker
+135,11,Wood- and Barrel-Aged Dark Beer,3.75,6.5,Shaker
+136,11,Wood- and Barrel-Aged Strong Beer,4.9,5.5,Shaker
+137,11,Wood- and Barrel-Aged Sour Beer,4.9,5.5,Shaker
+138,11,Aged Beer,4.5,5.0,Shaker
+139,11,Other Strong Ale or Lager,4.5,5.0,Shaker
+140,11,Non-Alcoholic Beer,4.5,5.0,Shaker
+141,11,Winter Warmer,4.5,5.0,Nonic Pint
+-1,-1,Undefined-Ignore,4.5,5.0,Shaker
