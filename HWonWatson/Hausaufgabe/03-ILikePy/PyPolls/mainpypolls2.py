@@ -64,4 +64,4 @@ print(fstring)
 output_path = os.path.join("..", "Analysis", "polls_analysis.txt")
 with open(output_path, 'w') as txtfile:
 	txtfile.write(fstring)
-#* In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+
