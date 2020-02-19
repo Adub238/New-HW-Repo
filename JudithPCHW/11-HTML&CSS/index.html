@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang='en'>
+	
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WeatherSite</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy|Voltaire&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+
+ <nav class="navbar navbar-toggler">
+      <div class="container-fluid">
+        <div class="navbar-collapse-sm">
+          <ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+			  <a href="pages/comparisons.html">Comparisons</a>
+			</li>
+			<li>
+			  <a href="pages/data.html">Data</a>
+			</li>
+		  </ul>
+		</div>
+		 <div class="Selection">
+           <div class="dropdown">
+             <a href="index.html" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Plot Charts<span class="caret"></span></a> 
+               <div class="dropdown-content">
+                 <a href="index.html">Home</a>
+                 <a href="pages/temp.html">Temperature</a> 
+                 <a href="pages/humidity.html">Humidity</a> 
+                 <a href="pages/cloudiness.html">Cloudiness</a> 
+                 <a href="pages/windspeed.html">Wind Speed</a> 
+                </div>
+             </div>
+           </div>
+		  <div class="clearfix"></div>
+      </div>
+    </nav>
+
+ 
+  <div class='container'>
+    <header class="header">
+	  <div class="jumbotron">
+      
+      <div class='Title'>
+        <h1>Weather Observations</h1>
+        <h2>How does latitude relate to different weather elements?</h2>
+      </div>
+    </div> 
+    </header>
+
+	<div class='row'>
+	  <p>
+		Latitude: It's the thing we are all searching to optimize. The closer we are to the equator,
+		the closer we are to the sun, the less extreme cold we have to experience. But how much 
+		of a difference does Latitude actually play in relationship to different elements of weather?
+	  </p>
+	  <p>
+		In this website, we take four elements: Temperature, Humidity, Cloudiness, and Wind Speed,
+		and analyze their relationship to Latitude. Ideally, we want to live not only in a place with 
+		warm weather, but one without much humidity (unless you are an ultra fitness nut, who 
+		actually likes the feeling of sweat rolling down their body?), cloudiness (Vitamin D is one of 
+		the biggest indicators of happiness, but can only be absorbed if clouds aren't blocking the way
+		to the sun), or that high of Wind Speed (it doesn't matter how nice the weather is if you
+		can't keep your feet on the ground.)
+      </p>
+      <p>
+		Above, in the top left corner of the page, there are links to a comparisons page, where you 
+		can look at data from all of the graphs, as well as a link to the data that was used to 
+		generate these charts. In the top right, there is a drop down option where you can click on 
+		a link to each graph to examine each scatter chart more carefully. As you examine this data,
+		think about why you choose to live where you do. Is it a job? Family? School opportunities? 
+		Sunlight? Local produce? As you examine this dataset, think about how each of these elements
+		can be effected by the weather, and then further examine our results to see how important 
+		Latitude is to these elements. 
+	  </p>
+	</div>
+    <div class="row">
+   
+      <div class="col-xs-6 col-md-3">
+		<div class='panel rounded'>Lat vs. Temp</div>
+        <figure>
+          <img src="resources/assets/images/fig1.png" 
+			      alt="maxTemp thumbnail"
+			      width='200'
+			      height='150'> 
+        </figure>
+      </div>
+	  
+     <div class="col-xs-6 col-md-3">
+		 <div class='panel rounded'>Lat vs. Humidity</div>
+        <figure>
+          
+          <img src="resources/assets/images/fig2.png" 
+                  alt="humidity thumbnail"
+                  width='200'
+			      height='150'> 
+       </figure>
+     </div>
+     <div class="col-xs-6 col-md-3">
+	   <div class='panel rounded'>Lat vs. Cloudiness</div>
+       <figure>
+		   
+          <img src="resources/assets/images/fig3.png" 
+                  alt="clouds thumbnail"
+                  width='200'
+			      height='150'> 
+       </figure>
+     </div>
+	 
+     <div class="col-xs-6 col-md-3">
+		<div class='panel rounded'>Lat vs. Wind Speed</div>
+        <figure>
+			
+            <img src="resources/assets/images/fig4.png" 
+                    alt="windSpeed thumbnail"
+                    width='200'
+			        height='150'> 
+        </figure>
+     </div>
+	 
+    </div>
+  </div>
+</body>

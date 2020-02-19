@@ -1,0 +1,169 @@
+/*
+font-family: 'Satisfy', cursive;
+font-family: 'Voltaire', sans-serif;
+* 
+* glyphicon glyphicon-hand-right
+* <i class="far fa-hand-point-right"></i>
+* 
+* need to add change background color to 
+ 	#220e49 when shrunk. navbar to #c6a4a8.
+* 
+* change size of figure files and rename for individual pages
+*/
+
+body {
+    background-color: #dfcbff;
+}
+
+.jumbotron {
+   height: 200 px;
+   background-image: url('images/original.png'); 
+   background-position: 100% 100%;
+}
+
+.navbar {
+   background-color: #fd7cb3;
+   height: 50 px;
+}
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 3px;
+}
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+  color: #d916e5;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Voltaire', sans-serif;
+}
+
+.Title {
+   font-size: 40;
+   color: #fff;
+   text-align: center;
+   font-family: 'Satisfy', cursive;
+}
+
+figure {
+   padding: 15 px;
+   margin: 15 px;
+   text-align: center;
+}
+
+.Selection {
+   text-align: right;
+}
+
+#nav-select {
+   font-family: 'Voltaire', sans-serif;
+   text-align: right;
+   vertical-align: right;
+}
+
+.panel {
+   margin-bottom: 3%;
+   min-height: 25 px;
+   font-family: 'Satisfy', serif;
+   font-size: larger;
+   text-align: center;
+   vertical-align: center;
+   color: #fff;
+   background: #d916e5;
+}
+
+p {
+   font-family: 'Voltaire', sans-serif;
+   font-size: larger;
+   color: #220e49;
+   text-align: center;
+}
+
+.thead-purple {
+   background-color: #d916e5;
+   color: #fff;
+   font-family: 'Voltaire', sans-serif;
+}
+
+.table-contents {
+   color: #fff;
+   font-family: 'Voltaire', sans-serif;
+}
+
+.dropbtn {
+   background-color: white;
+   color: #d916e5;
+   text-align: right;
+}
+
+.btn-primary {
+   color: #d916e5;
+   background-color: #fff;
+   border-color: #fff;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+   text-align: right;
+   font-family: 'Voltaire', sans-serif;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: white;
+   color: #d916e5;
+   width: 116px;
+   z-index: 1;
+}
+
+.dropdown-content a {
+   color: #d916e5;
+   padding: 10px 1px;
+   text-decoration: none;
+   display: block;
+
+}
+
+tbody {
+   background-color: #6b88b0;
+}
+
+.dropdown-content a:hover {background-color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
+
+@media (max-width: 600px) {
+   
+   body {
+     background-color: #220e49;
+   }
+   .navbar {
+	 background-color: #c6a4a8;
+     height: 50 px;
+   }
+   .panel {
+     margin-bottom: 3%;
+     min-height: 20 px;
+     font-family: 'Voltaire', sans-serif;
+     font-size: larger;
+     text-align: center;
+     vertical-align: center;
+     color: #fff;
+     background: #d916e5;
+   }
+   p {
+     font-family: 'Voltaire', sans-serif;
+     font-size: smaller;
+     color: #fff;
+     text-align: center;
+   }
+   
+}
+
